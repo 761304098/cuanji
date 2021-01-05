@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sun.dao.CpuMapper">
+    <select id="queryForCpu" resultType="cpu" parameterType="map">
+        select * from cpu
+        <where>
+            <if test="name!=null">
+                and name=#{name}
+            </if>
+            <if test="brand!=null">
+                and brand=#{brand}
+            </if>
+            <if test="price!=null">
+                and price=#{price}
+            </if>
+            <if test="cpuseries!=null">
+                and cpuseries=#{cpuseries}
+            </if>
+            <if test="slot!=null">
+                and slot=#{slot}
+            </if>
+            <if test="corenumber!=null">
+                and corenumber=#{corenumber}
+            </if>
+            <if test="thread!=null">
+                and thread=#{thread}
+            </if>
+            <if test="cpubasic!=null">
+                and cpubasic=#{cpubasic}
+            </if>
+            <if test="cpuhigh!=null">
+                and cpuhigh=#{cpuhigh}
+            </if>
+            <if test="threecache!=null">
+                and threecache=#{threecache}
+            </if>
+
+        </where>
+    </select>
+</mapper>
