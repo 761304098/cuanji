@@ -101,6 +101,11 @@
                           </ul>
                      </div>
                  </div>
+                 <div class="row">
+                     <iframe  src="${pageContext.request.contextPath}/getCpuAll" width="100%" id="cpuList" name="cpuList" frameborder="0" scrolling="no" onload="this.height=cpuList.document.body.scrollHeight">
+
+                     </iframe>
+                 </div>
         </div>
 </body>
 </html>

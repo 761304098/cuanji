@@ -146,18 +146,18 @@
 
                     <!-- List group -->
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="content/1.jsp">SSD固态硬盘的GC与Trim得区别</a></li>
-                        <li class="list-group-item"><a href="content/2.jsp">镁光DDR5规格书</a></li>
-                        <li class="list-group-item"><a href="content/3.jsp">影驰 HOF Pro 性能参数</a></li>
-                        <li class="list-group-item"><a href="content/4.jsp">i3 9100F到底有多香？相当于几代i5？</a></li>
-                        <li class="list-group-item"><a href="content/5.jsp">主板、显卡的全新工包是什么意思</a></li>
-                        <li class="list-group-item"><a href="content/6.jsp">激光鼠标和光电鼠标哪个好？</a></li>
-                        <li class="list-group-item"><a href="content/7.jsp">电源全模组、非模组、全模组、半模组、直出之间的区别</a></li>
-                        <li class="list-group-item"><a href="content/8.jsp">Thermal Velocity Boost是什么意思？</a></li>
-                        <li class="list-group-item"><a href="content/9.jsp">TDP、SDP、ACP、GCP、TBP是什么意思？</a></li>
-                        <li class="list-group-item"><a href="content/10.jsp">内存条带宽的换算方法以及DDR4内存理论带宽</a></li>
+                        <li class="list-group-item"><a href="../content/1.jsp">SSD固态硬盘的GC与Trim得区别</a></li>
+                        <li class="list-group-item"><a href="../content/2.jsp">镁光DDR5规格书</a></li>
+                        <li class="list-group-item"><a href="../content/3.jsp">影驰 HOF Pro 性能参数</a></li>
+                        <li class="list-group-item"><a href="../content/4.jsp">i3 9100F到底有多香？相当于几代i5？</a></li>
+                        <li class="list-group-item"><a href="../content/5.jsp">主板、显卡的全新工包是什么意思</a></li>
+                        <li class="list-group-item"><a href="../content/6.jsp">激光鼠标和光电鼠标哪个好？</a></li>
+                        <li class="list-group-item"><a href="../content/7.jsp">电源全模组、非模组、全模组、半模组、直出之间的区别</a></li>
+                        <li class="list-group-item"><a href="../content/8.jsp">Thermal Velocity Boost是什么意思？</a></li>
+                        <li class="list-group-item"><a href="../content/9.jsp">TDP、SDP、ACP、GCP、TBP是什么意思？</a></li>
+                        <li class="list-group-item"><a href="../content/10.jsp">内存条带宽的换算方法以及DDR4内存理论带宽</a></li>
                     </ul>
-                    <div class="panel-footer"><span style="color: orangered;font-weight: bolder">开始攒机</span></div>
+
                 </div>
 
 

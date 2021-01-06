@@ -37,7 +37,7 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-         <div class="col-sm-4" style="border: 1px solid red">
+         <div class="col-sm-4" >
              <div class="row">
 
                  <div class="panel panel-info text-center">
@@ -52,8 +52,8 @@
                          <li class="list-group-item active" >
                              <div class="row">
                                    <div class="col-sm-2 "><strong>CPU</strong></div>
-                                   <div class="col-sm-6  col-sm-offset-1 "><span style="color: #9d9d9d">请选择商品</span></div>
-                                   <div class="col-sm-2  col-sm-offset-1  "><a href="cpu.jsp" target="cuanji" style="text-decoration: none">添加</a></div>
+                                   <div class="col-sm-6  col-sm-offset-1 "><span style="color: #9d9d9d" id="name1">请选择商品</span></div>
+                                   <div class="col-sm-2  col-sm-offset-1  "><a href="cpu.jsp" target="cuanji" style="text-decoration: none" id="price1">添加</a></div>
                              </div>
 
                          </li>
@@ -178,23 +178,34 @@
                              </div>
 
                          </li>
-                         <li class="list-group-item">
+                     <%--    <li class="list-group-item">
                              <div class="row">
                                    <div class="text-left col-sm-6">
-                                         共计1项
+                                         共计<span id="span1">0</span>项
                                    </div>
                                    <div class="text-right col-sm-6" >
-                                       合计：
+                                       合计：￥<span id="span2">0</span>
                                    </div>
                              </div>
-                         </li>
+                         </li>--%>
                      </ul>
+
+                     <div class="panel-footer">
+                         <div class="row">
+                             <div class="text-left col-sm-6">
+                                 共计 <span id="span1">0</span> 项
+                             </div>
+                             <div class="text-right col-sm-6" style="color: red">
+                                  <span style="color: black"> 合计：</span>   ￥<span id="span2" >0</span>
+                             </div>
+                         </div>
+                     </div>
                  </div>
 
 
              </div>
          </div>
-         <div class="col-sm-8 " style="border: 1px solid lawngreen">
+         <div class="col-sm-8 " >
              <iframe  src="cpu.jsp" width="100%" id="cuanji" name="cuanji" frameborder="0" scrolling="no" onload="this.height=cuanji.document.body.scrollHeight">
 
              </iframe>

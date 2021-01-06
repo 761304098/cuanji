@@ -10,7 +10,9 @@
     <typeAliases>
         <package name="com.sun.bean"/>
     </typeAliases>
-
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
     <mappers>
         <mapper class="com.sun.dao.UserMapper"/>
         <mapper class="com.sun.dao.CpuMapper"/>
